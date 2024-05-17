@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    /* Remove default body margin */
+    padding: 0;
+    /* Remove default body padding */
+    width: 100vw;
+    /* Set body width to 100% of viewport width */
+    height: 100vh;
+    background-image: url('heart.jpg');
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 30px;
+    font-style: normal;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+img {
+    width: 150px;
+    height: 200px;
+}
+
+#yesButton {
+    border: none;
+    background-color: rgb(85, 230, 85);
+    padding: 15px;
+    width: 55px;
+    border-radius: 10px;
+}
+
+#noButton {
+    border: none;
+    background-color: rgb(235, 83, 83);
+    padding: 15px;
+    width: 55px;
+    border-radius: 10px;
+}
